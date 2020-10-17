@@ -1,0 +1,38 @@
+@font-face
+{
+	font-family: 'Proxima Nova Soft';
+	src: url('3291C4_3_0.eot');
+	src: url('3291C4_3_0.eot?#iefix') format('embedded-opentype'),url('3291C4_3_0.woff2') format('woff2'),url('3291C4_3_0.woff') format('woff'),url('3291C4_3_0.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face
+{
+	font-family: 'Proxima Nova Soft';
+	src: url('3291C4_1_0.eot');
+	src: url('3291C4_1_0.eot?#iefix') format('embedded-opentype'),url('3291C4_1_0.woff2') format('woff2'),url('3291C4_1_0.woff') format('woff'),url('3291C4_1_0.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 500;
+}
+
+@font-face
+{
+	font-family: 'Proxima Nova Soft';
+	src: url('3291C4_2_0.eot');
+	src: url('3291C4_2_0.eot?#iefix') format('embedded-opentype'),url('3291C4_2_0.woff2') format('woff2'),url('3291C4_2_0.woff') format('woff'),url('3291C4_2_0.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 700;
+}
+
+body
+{
+	font-family: 'Proxima Nova Soft', sans-serif;
+	overflow-x: hidden
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6,
+h1, h2, h3, h4, h5, h6
+{
+	font-weight: 700
+}

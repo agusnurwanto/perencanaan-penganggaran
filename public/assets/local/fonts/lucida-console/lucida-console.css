@@ -1,0 +1,7 @@
+@font-face
+{
+	font-family:'Lucida Console';
+	font-style:normal;
+	font-weight:400;
+	src:local('Lucida Console'),local('LucidaConsole-Regular'),url(lucida-console.woff) format('woff'),url(lucida-console.ttf) format('truetype')
+}
