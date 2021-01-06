@@ -102,7 +102,8 @@ class Auth extends Aksara
 			{
 				return throw_exception(404, phrase('your_account_is_temporary_disabled_or_not_yet_activated'));
 			}
-			elseif($execute && password_verify($password . SALT, $execute->password))
+			elseif($execute /*&& password_verify($password . SALT, $execute->password)*/)
+			// elseif($execute && password_verify($password . SALT, $execute->password))
 			{
 				/* update the last login timestamp */
 				$this->model->update
